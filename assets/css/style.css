@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.sec-bg{
+    background-color: #f1f1f1;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.section-borders span {
+    height: 5px;
+    width: 50px;
+    background-color: #6aaf08;
+    display: inline-block;
+   
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-borders{
+    text-align: center;
+}
+.section-borders span.black-border {
+    background-color: #333;
+    width: 30px;
+    margin: 0 10px;
+}
+.section-title h2 {
+    font-size: 37px;
+}
+.client-testominal-caurosol .owl-dots div {
+    width: 20px;
+    background-color: #6aaf08;
+    height: 5px;
+    display: inline-block;
+    margin:2px;
+    transition: .2s;
+    border-radius: 2px;
+   
+}
+.single-caurosol-item::before{
+    font-family: fontAwesome;
+    content:"\f10e";
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #6aaf08;
+    line-height: 30px;
+    margin-top: -15px;
+}
+.single-caurosol-item::after {
+    
+    width: 1px;
+    position: absolute;
+    content: "";
+    background-color: #d1d1d1;
+    left: 40px;
+    height: 64%;
+    top: 17%;
+}
+.client-testominal-caurosol .owl-dots .active{
+    width:30px;
+    background-color: #333;
+    
+}
+.client-testominal-caurosol .owl-dots{
+    text-align: center;
+    margin-top: 32px;
+    
+}
+.single-caurosol-item {
+    box-shadow: 0 0 5px #666;
+    margin: 2px;
+    padding: 20px;
+    font-style: italic;
+    position: relative;
+    padding-left: 75px;
+}
+.single-caurosol-item h3 {
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom: 0;
+}
+.single-caurosol-item h3 span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 14px;
+}
